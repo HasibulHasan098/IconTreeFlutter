@@ -34,17 +34,16 @@ TreeIcon(id: 'heart', size: 24, color: Color(0xFFE5484D), mode: IconMode.onClick
 
 ## Install
 
-```bash
-flutter pub add icon_tree_animate
-```
-
-Or install straight from GitHub:
-
 ```yaml
+# pubspec.yaml
 dependencies:
   icon_tree_animate:
-    git: https://github.com/HasibulHasan098/IconTreeFlutter.git
+    git:
+      url: https://github.com/HasibulHasan098/IconTreeFlutter.git
+      ref: 1.0.0
 ```
+
+Then run `flutter pub get`. Requires Flutter 3.24 or newer.
 
 ## Quick start
 
