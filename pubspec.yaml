@@ -1,0 +1,29 @@
+name: icon_tree_animate
+description: 946 animated, recolorable, offline Lottie icons for Flutter. Static, loop, click and hover modes, local search, zero network.
+version: 1.0.0
+homepage: https://github.com/HasibulHasan098/IconTreeFlutter
+repository: https://github.com/HasibulHasan098/IconTreeFlutter
+issue_tracker: https://github.com/HasibulHasan098/IconTreeFlutter/issues
+topics:
+  - icons
+  - lottie
+  - animation
+  - offline
+
+environment:
+  sdk: ^3.5.0
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  lottie: ^3.8.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  assets:
+    - assets/icons/
